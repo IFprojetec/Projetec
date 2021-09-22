@@ -283,10 +283,10 @@ a{
 
 #linha-vertical{
     position: absolute;
-    width: 36%;
+    width: 37%;
     height: 0%;
     left: 32%;
-    top: 92%;
+    top: 95%;
 
     border: 1px solid #000000;
     transform: rotate(90.41deg);
@@ -298,27 +298,27 @@ a{
     left: 31%;
     top: 40%;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 215%;
+    font-size: 210%;
     line-height: 18%;
     /* or 43% */
 
 
-    color: #831156;
+    color: #ca1f86;
 }
 #telefone h1{
     position: absolute;
     width: 9%;
     height: 18%;
     left: 71%;
-    top: 65%;
+    top: 72%;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 165%;
+    font-size: 170%;
     line-height: 18%;
     /* identical to box height, or 50% */
 
@@ -330,12 +330,12 @@ a{
     width: 30%;
     height: 29%;
     left: 65%;
-    top: 77%;
+    top: 87%;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Rationale;
     font-style: normal;
     font-weight: normal;
-    font-size: 135%;
+    font-size: 150%;
     line-height: 100%;
     /* or 56% */
 
@@ -347,12 +347,12 @@ a{
     width: 30%;
     height: 29%;
     left: 69%;
-    top: 101%;
+    top: 110%;
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Rhodium Libre;
     font-style: normal;
     font-weight: normal;
-    font-size: 120%;
+    font-size: 125%;
     line-height: 95%;
     /* identical to box height, or 60% */
     
@@ -364,7 +364,7 @@ a{
     width: 22%;
     height: 6%;
     left: 65%;
-    top: 100%;
+    top: 109%;
 
     background: #FF8DD3;
     border-radius: 56px;
@@ -374,7 +374,7 @@ a{
     width: 22%;
     height: 6%;
     left: 12%;
-    top: 100%;
+    top: 109%;
 
     background: #FF8DD3;
     border-radius: 56px;
@@ -384,12 +384,12 @@ a{
     width: 9%;
     height: 18%;
     left: 18%;
-    top: 65%;
+    top: 72%;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 165%;
+    font-size: 170%;
     line-height: 18%;
     /* identical to box height, or 50% */
 
@@ -401,12 +401,12 @@ a{
     width: 20%;
     height: 29%;
     left: 15%;
-    top: 77%;
+    top: 87%;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Rationale;
     font-style: normal;
     font-weight: normal;
-    font-size: 135%;
+    font-size: 150%;
     line-height: 100%;
     /* or 56% */
 
@@ -415,15 +415,15 @@ a{
 }
 #email p{
     position: absolute;
-    width: 35%;
-    height: 35%;
+    width: 30%;
+    height: 29%;
     left: 17%;
-    top: 101%;
+    top: 110%;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Rhodium Libre;
     font-style: normal;
     font-weight: normal;
-    font-size: 120%;
+    font-size: 125%;
     line-height: 95%;
     /* identical to box height, or 56% */
 
