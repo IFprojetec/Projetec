@@ -444,10 +444,10 @@ a{
     left: 57%;
     top: 43%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 220%;
+    font-size: 215%;
     line-height: 18%;
     /* or 43% */
 
@@ -462,7 +462,7 @@ a{
     left: 57%;
     top: 55%;
     
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 100%;
@@ -493,13 +493,13 @@ a{
     position: absolute;
     width: 23%;
     height: 44%;
-    left: 44%;
+    left: 45%;
     top: 35%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 220%;
+    font-size: 215%;
     line-height: 18%;
     /* or 37% */
 
@@ -510,13 +510,13 @@ a{
     position: absolute;
     width: 69%;
     height: 21%;
-    left: 30%;
+    left: 29%;
     top: 45%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 120%;
+    font-size: 115%;
     line-height: 18%;
     /* or 75% */
 
@@ -525,9 +525,9 @@ a{
 }
 #retangulo{
     position: absolute;
-    width: 67%;
-    height: 23%;
-    left: 18%;
+    width: 60%;
+    height: 18%;
+    left: 22%;
     top: 60%;
 
     background: #C4C4C4;
@@ -535,10 +535,10 @@ a{
 }
 #circulo{
     position: absolute;
-    width: 8%;
-    height: 15%;
-    left: 21%;
-    top: 65%;
+    width: 6.5%;
+    height: 12%;
+    left: 24%;
+    top: 63%;
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -549,12 +549,12 @@ a{
     width: 10%;
     height: 21%;
     left: 32%;
-    top: 67%;
+    top: 66%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 110%;
+    font-size: 107%;
     line-height: 18%;
     /* or 75% */
 
@@ -566,23 +566,23 @@ a{
     width: 31%;
     height: 21%;
     left: 32%;
-    top: 75%;
+    top: 72%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 110%;
+    font-size: 103%;
     line-height: 18%;
     /* or 75% */
 
 
-    color: #000000;
+    color: #292828;
 }
 #retangulo2{
     position: absolute;
-    width: 67%;
-    height: 24%;
-    left: 18%;
+    width: 60%;
+    height: 18%;
+    left: 22%;
     top: 95%;
 
     background: #C4C4C4;
@@ -590,10 +590,10 @@ a{
 }
 #circulo2{
     position: absolute;
-    width: 8%;
-    height: 15%;
-    left: 21%;
-    top: 100%;
+    width: 6.5%;
+    height: 12%;
+    left: 24%;
+    top: 98%;
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -604,12 +604,12 @@ a{
     width: 10%;
     height: 21%;
     left: 32%;
-    top: 102%;
+    top: 101%;
     
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 110%;
+    font-size: 107%;
     line-height: 18%;
     /* or 75% */
     
@@ -621,17 +621,17 @@ a{
     width: 31%;
     height: 3%;
     left: 32%;
-    top: 110%;
+    top: 107%;
     
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 110%;
+    font-size: 103%;
     line-height: 18%;
     /* or 75% */
     
     
-    color: #000000;
+    color: #292828;
 }
 
 /*          Fim do Fórum            */
