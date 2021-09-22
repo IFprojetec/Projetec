@@ -663,7 +663,7 @@ a{
 .conectar{
     margin-top: 5%;
     margin-bottom: 3%;
-    padding-bottom: 13%;
+    padding-bottom: 5%;
     
 }
 
@@ -671,6 +671,9 @@ a{
 width: 50%; /* define a largura do campo */ 
 position: relative;  /* cria o contexto de posicionamento do botão */ 
 margin-top: 2%;
+font-family: cursive;
+font-size: 80%;
+
 }
 label {display:block;}
 input {width: 80%;} /* define a largura do campo igual a largura do container */
@@ -681,4 +684,12 @@ input {padding: 10px;}
     border-radius: 10px;
     border-color: #f0b4d9;
 }
-
+.log {
+    padding-bottom: 8%;
+    padding-top: 4%
+}
+.botlog {
+    margin-top: 4%;
+    width: 30px;
+    height: 30px;
+}
