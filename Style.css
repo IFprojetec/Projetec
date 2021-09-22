@@ -680,13 +680,13 @@ input {width: 80%;} /* define a largura do campo igual a largura do container */
 input {padding: 10px;}
 
 #email, #nome, #senha {
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 10px;
     border-color: #f0b4d9;
 }
 .log {
     padding-bottom: 8%;
-    padding-top: 4%
+    padding-top: 4%;
 }
 .botlog {
     margin-top: 4%;
