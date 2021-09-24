@@ -700,7 +700,7 @@ label {display:block;}
 input {width: 100%;} /* define a largura do campo igual a largura do container */
 input {padding: 10px;}
 
-#email, #nome, #senha {
+.container .form-element #email, #nome, #senha {
     
     border-radius: 10px;
     border-color: #f0b4d9;
