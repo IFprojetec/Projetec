@@ -639,14 +639,12 @@ a{
 
 
 .cad {
-    width:40%;
+    width:35%;
     text-align: center;
     height:40%;
     border-radius: 15px;
-    box-shadow: 10px 10px 10px 5px rgb(156, 126, 126);
-    margin-top: 8%;
-    margin-bottom: 15%;
-    background-color:rgb(201, 164, 164);
+    box-shadow: 10px 10px 10px 5px rgb(201, 164, 164) ;
+    background-color: rgb(156, 126, 126);
 }
 
 
@@ -656,41 +654,67 @@ a{
     margin-bottom: 3%;
     color: black;
     font-family: 'ABeeZee', sans-serif; 
+    font-style: italic;
     text-align: center;
     font-size: 30px;
 }
 
-.conectar{
+.container .conectar button  {
+    top: 40px;
+    width: 75%;
+    padding: 5%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background:rgb(201, 164, 164);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
     margin-top: 5%;
     margin-bottom: 3%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+.container .log .botlog button {
+    top: 40px;
+    width: 75%;
     
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background:rgb(201, 164, 164);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    padding-top: 3%;
+    padding-bottom: 7% ;
+    text-align: center;
 }
 
-.container {
-width: 50%; /* define a largura do campo */ 
-position: relative;  /* cria o contexto de posicionamento do botão */ 
-margin-top: 2%;
-font-family: cursive;
-font-size: 80%;
 
-}
 label {display:block;}
 input {width: 80%;} /* define a largura do campo igual a largura do container */
 input {padding: 10px;}
 
 #email, #nome, #senha {
-    margin-top: 2%;
+    
     border-radius: 10px;
     border-color: #f0b4d9;
+    margin-top: 8%;
+    border:none;
+    display: block;
+    width: 80%;
+    border-radius: 7px;
 }
-.log {
-    padding-bottom: 8%;
-    padding-top: 4%;
-}
-.botlog {
-    margin-top: 4%;
-    margin-bottom: 4%;
-    width: 30px;
-    height: 30px;
+.container .log {
+    font-family:'ABeeZee', sans-serif;
+    font-size: 90%;
+    font-style:oblique;
+    padding-top: 3%;
+    color: black;
 }
