@@ -695,8 +695,6 @@ a{
     padding-bottom: 7% ;
     text-align: center;
 }
-
-
 label {display:block;}
 input {width: 80%;} /* define a largura do campo igual a largura do container */
 input {padding: 10px;}
