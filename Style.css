@@ -700,8 +700,8 @@ label {display:block;}
 input {width: 100%;} /* define a largura do campo igual a largura do container */
 input {padding: 10px;}
 
-#emailc, #nomec, #senhac {
-    
+.cad .container .form-element input[type="text"],
+.cad .container .form-element input[type="password"] {
     border-radius: 10px;
     border-color: #f0b4d9;
     margin-top: 8%;
