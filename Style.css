@@ -291,7 +291,7 @@ a{
 /*           Contato             */
 
 #linha-vertical{
-    position: absolute;
+    position: flex;
     width: 37%;
     height: 0%;
     left: 32%;
@@ -509,16 +509,16 @@ a{
 
 #forum h1{
     position: absolute;
-    width: 232px;
-    height: 44px;
-    left: 600px;
-    top: 240px;
+    width: 23%;
+    height: 44%;
+    left: 45%;
+    top: 35%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 18px;
+    font-size: 215%;
+    line-height: 18%;
     /* or 37% */
 
 
@@ -526,16 +526,16 @@ a{
 }
 #forum p{
     position: absolute;
-    width: 691px;
-    height: 21px;
-    left: 370px;
-    top: 305px;
+    width: 69%;
+    height: 21%;
+    left: 29%;
+    top: 45%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 18px;
+    font-size: 115%;
+    line-height: 18%;
     /* or 75% */
 
 
@@ -543,20 +543,20 @@ a{
 }
 #retangulo{
     position: absolute;
-    width: 900px;
-    height: 150px;
-    left: 250px;
-    top: 406px;
+    width: 60%;
+    height: 18%;
+    left: 22%;
+    top: 60%;
 
     background: #C4C4C4;
     border-radius: 229px;
 }
 #circulo{
     position: absolute;
-    width: 120px;
-    height: 105px;
-    left: 290px;
-    top: 430px;
+    width: 6.5%;
+    height: 12%;
+    left: 24%;
+    top: 63%;
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -564,16 +564,16 @@ a{
 }
 #caixa1 h3{
     position: absolute;
-    width: 104px;
-    height: 21px;
-    left: 450px;
-    top: 430px;
+    width: 10%;
+    height: 21%;
+    left: 32%;
+    top: 66%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 18px;
+    font-size: 107%;
+    line-height: 18%;
     /* or 75% */
 
 
@@ -581,37 +581,37 @@ a{
 }
 #caixa1 p{
     position: absolute;
-    width: 314px;
-    height: 21px;
-    left: 450px;
-    top: 490px;
+    width: 31%;
+    height: 21%;
+    left: 32%;
+    top: 72%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 18px;
+    font-size: 103%;
+    line-height: 18%;
     /* or 75% */
 
 
-    color: #000000;
+    color: #292828;
 }
 #retangulo2{
     position: absolute;
-    width: 900px;
-    height: 150px;
-    left: 250px;
-    top: 650px;
+    width: 60%;
+    height: 18%;
+    left: 22%;
+    top: 95%;
 
     background: #C4C4C4;
     border-radius: 229px;
 }
 #circulo2{
     position: absolute;
-    width: 120px;
-    height: 105px;
-    left: 290px;
-    top: 680px;
+    width: 6.5%;
+    height: 12%;
+    left: 24%;
+    top: 98%;
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -619,16 +619,16 @@ a{
 }
 #caixa2 h3{
     position: absolute;
-    width: 104px;
-    height: 21px;
-    left: 450px;
-    top: 680px;
+    width: 10%;
+    height: 21%;
+    left: 32%;
+    top: 101%;
     
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 18px;
+    font-size: 107%;
+    line-height: 18%;
     /* or 75% */
     
     
@@ -636,20 +636,20 @@ a{
 }
 #caixa2 p{
     position: absolute;
-    width: 314px;
-    height: 21px;
-    left: 450px;
-    top: 740px;
+    width: 31%;
+    height: 3%;
+    left: 32%;
+    top: 107%;
     
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 18px;
+    font-size: 103%;
+    line-height: 18%;
     /* or 75% */
     
     
-    color: #000000;
+    color: #292828;
 }
 
 /*          Fim do Fórum            */
