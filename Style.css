@@ -237,6 +237,9 @@ a{
 #login{
     margin: 0;
 }
+#perfil{
+    margin: 0;
+}
 .popup .form h2{
     text-align: center;
     margin: 10px 0px 20px;
@@ -870,4 +873,22 @@ input {padding: 10px;}
     color: #831156;
     border: 1px solid #831156;
     border-radius: 200px;
+}
+
+
+
+#listarank {
+    position: absolute;
+    width: 20%;
+    left: 80%;
+    top: 22.3%;
+    bottom: 0%;
+    background-color: #ddd3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    box-shadow: 0px 0px 4px #222222;
+}
+#rank li {
+    margin-top: 8%;
+    margin-left: 20%;
 }
