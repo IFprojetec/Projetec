@@ -291,7 +291,7 @@ a{
 /*           Contato             */
 
 #linha-vertical{
-    position: flex;
+    position: absolute;
     width: 37%;
     height: 0%;
     left: 32%;
@@ -446,19 +446,28 @@ a{
 
 /*           Quem somos            */
 
+#barrinha{
+    height: 100%;
+    
+}
+
+#livros{
+    height: 100vh;
+}
+
 #qsomos h1{
     position: absolute;
-    width: 40%;
-    height: 28%;
-    left: 57%;
-    top: 43%;
+    width: 325px;
+    height: 26px;
+    left: 878px;
+    top: 290px;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 215%;
-    line-height: 18%;
-    /* or 43% */
+    font-size: 50px;
+    line-height: 18px;
+    /* or 36% */
 
 
     color: #831156;
@@ -466,16 +475,16 @@ a{
 
 #qsomos p{
     position: absolute;
-    width: 35%;
-    height: 70%;
-    left: 57%;
-    top: 55%;
+    width: 500px;
+    height: 410px;
+    left: 770px;
+    top: 380px;
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 100%;
-    line-height: 125%;
+    font-size: 18px;
+    line-height: 30px;
     /* or 88% */
     
     text-align: justify;
@@ -486,9 +495,9 @@ a{
 #linha-vertical{
     position: absolute;
     width: 558.01px;
-    height: 0%;
-    left: 30%;
-    top: 75%;
+    height: 0px;
+    left: 420px;
+    top: 470px;
 
     border: 1px solid #000000;
     transform: rotate(90.41deg);
@@ -500,16 +509,16 @@ a{
 
 #forum h1{
     position: absolute;
-    width: 23%;
-    height: 44%;
-    left: 45%;
-    top: 35%;
+    width: 232px;
+    height: 44px;
+    left: 600px;
+    top: 240px;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 215%;
-    line-height: 18%;
+    font-size: 48px;
+    line-height: 18px;
     /* or 37% */
 
 
@@ -517,16 +526,16 @@ a{
 }
 #forum p{
     position: absolute;
-    width: 69%;
-    height: 21%;
-    left: 29%;
-    top: 45%;
+    width: 691px;
+    height: 21px;
+    left: 370px;
+    top: 305px;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 115%;
-    line-height: 18%;
+    font-size: 24px;
+    line-height: 18px;
     /* or 75% */
 
 
@@ -534,20 +543,20 @@ a{
 }
 #retangulo{
     position: absolute;
-    width: 60%;
-    height: 18%;
-    left: 22%;
-    top: 60%;
+    width: 900px;
+    height: 150px;
+    left: 250px;
+    top: 406px;
 
     background: #C4C4C4;
     border-radius: 229px;
 }
 #circulo{
     position: absolute;
-    width: 6.5%;
-    height: 12%;
-    left: 24%;
-    top: 63%;
+    width: 120px;
+    height: 105px;
+    left: 290px;
+    top: 430px;
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -555,16 +564,16 @@ a{
 }
 #caixa1 h3{
     position: absolute;
-    width: 10%;
-    height: 21%;
-    left: 32%;
-    top: 66%;
+    width: 104px;
+    height: 21px;
+    left: 450px;
+    top: 430px;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 107%;
-    line-height: 18%;
+    font-size: 24px;
+    line-height: 18px;
     /* or 75% */
 
 
@@ -572,37 +581,37 @@ a{
 }
 #caixa1 p{
     position: absolute;
-    width: 31%;
-    height: 21%;
-    left: 32%;
-    top: 72%;
+    width: 314px;
+    height: 21px;
+    left: 450px;
+    top: 490px;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 103%;
-    line-height: 18%;
+    font-size: 22px;
+    line-height: 18px;
     /* or 75% */
 
 
-    color: #292828;
+    color: #000000;
 }
 #retangulo2{
     position: absolute;
-    width: 60%;
-    height: 18%;
-    left: 22%;
-    top: 95%;
+    width: 900px;
+    height: 150px;
+    left: 250px;
+    top: 650px;
 
     background: #C4C4C4;
     border-radius: 229px;
 }
 #circulo2{
     position: absolute;
-    width: 6.5%;
-    height: 12%;
-    left: 24%;
-    top: 98%;
+    width: 120px;
+    height: 105px;
+    left: 290px;
+    top: 680px;
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -610,16 +619,16 @@ a{
 }
 #caixa2 h3{
     position: absolute;
-    width: 10%;
-    height: 21%;
-    left: 32%;
-    top: 101%;
+    width: 104px;
+    height: 21px;
+    left: 450px;
+    top: 680px;
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 107%;
-    line-height: 18%;
+    font-size: 24px;
+    line-height: 18px;
     /* or 75% */
     
     
@@ -627,44 +636,24 @@ a{
 }
 #caixa2 p{
     position: absolute;
-    width: 31%;
-    height: 3%;
-    left: 32%;
-    top: 107%;
+    width: 314px;
+    height: 21px;
+    left: 450px;
+    top: 740px;
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 103%;
-    line-height: 18%;
+    font-size: 22px;
+    line-height: 18px;
     /* or 75% */
     
     
-    color: #292828;
+    color: #000000;
 }
 
 /*          Fim do Fórum            */
 
-
-/*          Rank            */
-
-#listarank {
-    position: absolute;
-    width: 20%;
-    left: 80%;
-    top: 22.3%;
-    bottom: 0%;
-    background-color: #ddd3d3;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
-    box-shadow: 0px 0px 4px #222222;
-}
-#rank li {
-    margin-top: 8%;
-    margin-left: 20%;
-}
-
-/*          Fim do Rank           */
 
 .cad {
     width:35%;
@@ -743,4 +732,143 @@ input {padding: 10px;}
     font-style:oblique;
     padding-top: 3%;
     color: black;
+}
+
+#perfil {
+    position: absolute;
+    width: 232px;
+    height: 20px;
+    left: 20%;
+    top: 41%;
+    
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 18px;
+    color: #831156;
+}
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.type1 {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    line-height: 18px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#posição {
+    position: absolute;
+    width: 303px;
+    height: 18px;
+    left: 21%;
+    top: 87%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    color: #831156;
+}
+
+#nome{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    line-height: 26px;
+    
+    position: absolute;
+    border-radius: 229px;
+    width: 200px;
+    height: 26px;
+    left: 45%;
+    top: 58%;
+    background: #FF8DD3;
+}
+
+#email{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    line-height: 26px;
+    
+    position: absolute;
+    border-radius: 229px;
+    width: 200px;
+    height: 26px;
+    left: 45%;
+    top: 63%;
+    background: #FF8DD3;
+}
+
+#senha{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    line-height: 26px;
+
+    position: absolute;
+    border-radius: 229px;
+    width: 200px;
+    height: 26px;
+    left: 45%;
+    top: 68.2%;
+    background: #FF8DD3;
+}
+
+.retangulo1{
+   position: absolute;
+    width: 350px;
+    height: 26px;
+    left: 59.5%;
+    top: 58%;
+
+    background: #C4C4C4;
+    border-radius: 229px;
+}
+
+.retangulo2{
+    position: absolute;
+    width: 350px;
+    height: 26px;
+    left: 59.5%;
+    top: 63%;
+ 
+    background: #C4C4C4;
+    border-radius: 229px;
+ }
+
+.retangulo3{
+    position: absolute;
+    width: 350px;
+    height: 26px;
+    left: 59.5%;
+    top: 68.2%;
+ 
+    background: #C4C4C4;
+    border-radius: 229px;
+}
+
+#botao{
+    position: absolute;
+    left: 85%;
+    top: 86.5%;
+
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    line-height: 18px;
+    color: #831156;
+    border: 1px solid #831156;
+    border-radius: 200px;
 }
