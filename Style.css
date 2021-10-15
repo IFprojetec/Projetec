@@ -739,8 +739,7 @@ input {padding: 10px;}
     width: 232px;
     height: 20px;
     left: 20%;
-    top: 41%;
-    
+    top: 20%;
     font-family: Roboto;
     font-size: 48px;
     line-height: 18px;
@@ -761,7 +760,7 @@ input {padding: 10px;}
     border: 1px solid rgb(0, 0, 0);
 }
 
-#posição {
+#posicao {
     position: absolute;
     width: 303px;
     height: 18px;
