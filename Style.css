@@ -760,7 +760,7 @@ input {padding: 10px;}
     border: 1px solid rgb(0, 0, 0);
 }
 
-#posição {
+#posiçãoperfil {
     position: absolute;
     width: 303px;
     height: 18px;
@@ -775,7 +775,7 @@ input {padding: 10px;}
     color: #831156;
 }
 
-#nome{
+#nomeperfil{
     position: relative;
     width: 100px;
     height: 18px;
@@ -792,7 +792,7 @@ input {padding: 10px;}
     background: #FF8DD3;
 }
 
-#email{
+#emailperfil{
     position: relative;
     width: 100px;
     height: 18px;
@@ -809,7 +809,7 @@ input {padding: 10px;}
     background: #FF8DD3;
 }
 
-#senha{
+#senhaperfil{
     position: relative;
     width: 100px;
     height: 18px;
@@ -859,7 +859,7 @@ input {padding: 10px;}
     border-radius: 229px;
 }
 
-#botao{
+#botaoperfil{
     position: absolute;
     left: 85%;
     top: 86.5%;
