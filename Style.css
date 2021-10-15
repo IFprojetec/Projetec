@@ -446,28 +446,19 @@ a{
 
 /*           Quem somos            */
 
-#barrinha{
-    height: 100%;
-    
-}
-
-#livros{
-    height: 100vh;
-}
-
 #qsomos h1{
     position: absolute;
-    width: 325px;
-    height: 26px;
-    left: 878px;
-    top: 290px;
+    width: 40%;
+    height: 28%;
+    left: 57%;
+    top: 43%;
 
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 18px;
-    /* or 36% */
+    font-size: 215%;
+    line-height: 18%;
+    /* or 43% */
 
 
     color: #831156;
@@ -475,16 +466,16 @@ a{
 
 #qsomos p{
     position: absolute;
-    width: 500px;
-    height: 410px;
-    left: 770px;
-    top: 380px;
+    width: 35%;
+    height: 70%;
+    left: 57%;
+    top: 55%;
     
-    font-family: Roboto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 100%;
+    line-height: 125%;
     /* or 88% */
     
     text-align: justify;
@@ -495,9 +486,9 @@ a{
 #linha-vertical{
     position: absolute;
     width: 558.01px;
-    height: 0px;
-    left: 420px;
-    top: 470px;
+    height: 0%;
+    left: 30%;
+    top: 75%;
 
     border: 1px solid #000000;
     transform: rotate(90.41deg);
