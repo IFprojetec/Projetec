@@ -73,6 +73,7 @@ a{
     width: 50vw; /*distancia entre elementos */
     height: 60px;
     min-width: 700px;
+    z-index:1;
 }
 .itens-menu li{
     float: left;
