@@ -324,17 +324,6 @@ a{
 
 /*           Contato             */
 
-#linha-vertical{
-    position: absolute;
-    width: 37%;
-    height: 0%;
-    left: 32%;
-    top: 95%;
-
-    border: 1px solid #000000;
-    transform: rotate(90.41deg);
-}
-
 #contato h1{
     position: absolute;
     width: 65%;
