@@ -475,6 +475,15 @@ a{
     
 }
 
+.foto{
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    left: 7%;
+    bottom: 0%;
+    
+}
+
 #livros{
     height: 100vh;
 }
