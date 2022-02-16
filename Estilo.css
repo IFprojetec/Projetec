@@ -811,7 +811,7 @@ a{
     border-radius: 229px;
 }
 
-#botao-sair{
+#botaoperfil{
     position: absolute;
     left: 93%;
     top: 7%;
@@ -825,7 +825,7 @@ a{
     font-weight:bold;
 }
 
-#botao-sair:hover{
+#botaoperfil:hover{
     background:rgb(201, 164, 164);
     color:white;
 }
