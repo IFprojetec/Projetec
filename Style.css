@@ -682,6 +682,13 @@ a{
 
 /*          Perfil            */
 
+.avatar6{
+    width: 41%;
+    height: 84%;
+    position: absolute;
+    bottom: -11%;
+    left: 7.6%;
+}
 #perfilp {
     position: absolute;
     width: 232px;
@@ -839,6 +846,46 @@ a{
     margin-left: 20%;
 }
 
+#avatar1 {
+    padding: 20px;
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    right: 70%;
+    bottom: 82%;
+}
+#avatar2 {
+    padding: 20px;
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    right: 70%;
+    bottom: 64%;
+}
+#avatar3 {
+    padding: 20px;
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    right: 70%;
+    bottom: 47%;
+}
+#avatar4 {
+    padding: 20px;
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    right: 70%;
+    bottom: 29%;
+}
+#avatar5 {
+    padding: 20px;
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    right: 70%;
+    bottom: 12%;
+}
 
 /*          Fim do Rank            */
 
