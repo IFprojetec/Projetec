@@ -220,12 +220,29 @@ a{
     font-family: 'ABeeZee', sans-serif;
     font-weight:bold;
 }
+#botaoperfil{
+    position: absolute;
+    left: 85%;
+    top: 86.5%;
+    cursor: pointer;
+    border: none;
+    background: #f0b4d9;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 690px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight:bold;
+}
 
 #abrir-login:hover{
     background:rgb(201, 164, 164);
     color:white;
 }
 #abrir-perfil:hover{
+    background:rgb(201, 164, 164);
+    color:white;
+}
+#botaoperfil:hover {
     background:rgb(201, 164, 164);
     color:white;
 }
@@ -271,6 +288,10 @@ a{
 #perfil{
     margin: 0;
 }
+#sair{
+    margin: 0;
+}
+
 .popup .form h2{
     text-align: center;
     margin: 10px 0px 20px;
@@ -822,18 +843,7 @@ a{
     border-radius: 229px;
 }
 
-#botaoperfil{
-    position: absolute;
-    left: 85%;
-    top: 86.5%;
 
-    font-family: Roboto Condensed;
-    font-size: 20px;
-    line-height: 18px;
-    color: #831156;
-    border: 1px solid #831156;
-    border-radius: 200px;
-}
 
 /*          Fim do Perfil            */
 
