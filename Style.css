@@ -991,3 +991,30 @@ input {padding: 10px;}
     padding-top: 3%;
     color: black;
 }
+
+#livro1, #livro2, #livro3, #livro4, #livro5{
+    max-width:220px;
+    max-height:220px;
+    margin-top: 2%;
+    margin-right: 3%;
+    flex-wrap: wrap;
+    border-radius: 6%;
+}
+#livro6, #livro7, #livro8, #livro9, #livro10{
+    margin-top: 3%;
+    max-width:220px;
+    max-height:220px;
+    margin-right: 3%;
+    flex-wrap: wrap;
+    border-radius: 6%;
+}
+
+#txtinicio h3 {
+    font-family: roboto Condensed;
+    font-style: inherit;
+    margin-left: 10%;
+    margin-top: 2%;
+    
+    color: #831156;
+    
+}
