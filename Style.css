@@ -908,9 +908,63 @@ a{
 
 /*          Fim do Rank            */
 
+/*      Livros Nacionais    */
 
 
+#nacional h1{
+    position: absolute;
+    left: 38%;
+    bottom: 70%;
 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 18px;
+    /* or 36% */
+
+
+    color: #831156;
+}
+
+.product_title{
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 88% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.product_subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 88% */
+    
+    text-align: center;
+    
+    color: #131313;
+}
+
+
+#livro3{
+    margin-top: 5%;
+    width: 41%;
+    height: 84%;
+    border-radius: 5%;
+}
+
+
+/*      Fim Livros Nacionais    */
 
 
 .cad {
