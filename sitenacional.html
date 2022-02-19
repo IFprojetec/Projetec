@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Style.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <title>Livros Nacionais</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div id="navbar">
+            <!--Topo Rosa-->
+            <a href="index.html">
+                <!-- recarregar página-->
+                <img class="logo" src="logo.png" alt="Logo" />
+            </a>
+
+            <div class="busca-navbar">
+                <div id="divBusca">
+                    <i id="livrinho" class="fa fa-book" aria-hidden="true"></i>
+                    <input type="text" id="txtBusca" placeholder="Livros,Perfil..." />
+                </div>
+                <button href="#" id="butaodelupa"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+            </div>
+            <div id="login">
+                <button id="abrir-login">Login</button>
+            </div>
+            <div id="perfil">
+                    <button id="abrir-perfil" onclick="window.location.href='siteperfil.html'">Perfil</button>
+            </div>
+
+
+
+        </div>
+
+        <nav class="menu">
+            <ul class="itens-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sitecontato.html">Contato</a></li>
+                <li><a href="sitequemsomos.html">Quem Somos?</a></li>
+                <li><a href="siteforum.html">Fórum</a></li>
+                <li><a href="sitelivros.html">Livros</a>
+                    <ul class="temas-livros">
+                        <li><a href="#">Ação</a></li>
+                        <li><a href="#">Romance</a></li>
+                        <li><a href="#">Fantasia</a></li>
+                        <li><a href="sitenacional.html">Nacional</a></li>
+                        <li><a href="#">LGBT</a></li>
+                        <li><a href="#">HQs</a></li>
+                        <li><a href="#">Policial, Suspense e Mistério</a></li>
+                        <li><a href="#">Ficção Científica</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="center">
+            
+            <div class="popup">
+                <div class="fechar">&times</div>
+                <div class="form">
+                    <h2>Login</h2>
+                    <div class="form-element">
+                        <label for="Email">Email:</label>
+                        <input type="text" id="email" placeholder="Email....">
+                    </div>
+                    <div class="form-element">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="senha" placeholder="Senha...">
+                    </div>
+                    <div class="form-element">
+                        <button>Conectar</button>
+                    </div>
+                    <div class="form-element">
+                        <button onclick="window.location.href='cadastro.html'">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="nacional">
+            <h1>Livros Nacionais</h1><br><br><br><br>
+        </div>
+        <table border="1" width="90%" cellpadding="10" cellspacing="0">
+            <tr>
+                <td width="30%" valign="top" ALIGN=MIDDLE>
+                    <img id="livro3" src="bomdiav.jpeg">
+                    <h2 class="product_title"><b>Bom Dia, Verônica</b><br> - Raphael Montes</h2>
+                    <p class="product_subtitle"><b>Trocador:</b> Leo</p>
+                </td>
+                <td width="30%" valign="top" ALIGN=MIDDLE>
+                    <img id="livro3" src="fmf.jpeg">
+                    <h2 class="product_title"><b>Fazendo Meu Filme</b><br> - Paula Pimenta</h2>
+                    <p class="product_subtitle"><b>Trocador:</b> Rafaela</p>
+                </td>
+                <td width="30%" valign="top" ALIGN=MIDDLE>
+                    <img id="livro3" src="perdida.jpeg">
+                    <h2 class="product_title"><b>Perdida</b><br> - Caria Rissi</h2>
+                    <p class="product_subtitle"><b>Trocador:</b> Natalia</p>
+                </td>
+                   
+            </tr>
+            <tr>
+                <td width="30%" valign="down" ALIGN=MIDDLE>
+                    <img id="livro3" src="npare.jpeg">
+                    <p class="product_title"><b>Não Pare</b><br> - FML Pepper</p>
+                    <p class="product_subtitle"><b>Trocador:</b> Lucas</p>
+                </td>
+                <td width="30%" valign="down" ALIGN=MIDDLE>
+                    <img id="livro3" src="jantars.jpeg">
+                    <h2 class="product_title"><b>Jantar secreto</b><br> - Raphael Montes</h2>
+                    <p class="product_subtitle"><b>Trocador:</b> Paula</p>
+                </td>
+                <td width="30%" valign="down" ALIGN=MIDDLE>
+                    <img id="livro3" src="vidadroga.jpeg">
+                    <h2 class="product_title"><b>Vida de Droga</b><br> - Walcyr Carrasco</h2>
+                    <p class="product_subtitle"><b>Trocador:</b> Jorge</p>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+    
+</html>
