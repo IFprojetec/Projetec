@@ -486,19 +486,6 @@ a{
 
 }
 
-#linhacontato{
-    position: absolute;
-    width: 40%;
-    height: 0%;
-    bottom: 10%;
-    left: 30%;
-
-
-    border: 1px solid #000000;
-    transform: rotate(90.41deg);
-}
-
-
 /*          Fim do Contato             */
 
 
@@ -921,63 +908,9 @@ a{
 
 /*          Fim do Rank            */
 
-/*      Livros Nacionais    */
 
 
-#nacional h1{
-    position: absolute;
-    left: 38%;
-    bottom: 70%;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 18px;
-    /* or 36% */
-
-
-    color: #831156;
-}
-
-.product_title{
-
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
-    /* or 88% */
-    
-    text-align: center;
-    
-    color: #000000;
-}
-
-.product_subtitle{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 88% */
-    
-    text-align: center;
-    
-    color: #131313;
-}
-
-
-#livro3{
-    margin-top: 5%;
-    width: 41%;
-    height: 84%;
-    border-radius: 5%;
-}
-
-
-/*      Fim Livros Nacionais    */
 
 
 .cad {
@@ -1060,8 +993,8 @@ input {padding: 10px;}
 }
 
 #livro1, #livro2, #livro3, #livro4, #livro5{
-    max-width:220px;
-    max-height:220px;
+    max-width:12%;
+    max-height:10%;
     margin-top: 2%;
     margin-right: 3%;
     flex-wrap: wrap;
@@ -1069,8 +1002,8 @@ input {padding: 10px;}
 }
 #livro6, #livro7, #livro8, #livro9, #livro10{
     margin-top: 3%;
-    max-width:220px;
-    max-height:220px;
+    max-width:12%;
+    max-height:10%;
     margin-right: 3%;
     flex-wrap: wrap;
     border-radius: 6%;
@@ -1082,6 +1015,7 @@ input {padding: 10px;}
     margin-left: 10%;
     margin-top: 2%;
     
+
     color: #831156;
     
 }
