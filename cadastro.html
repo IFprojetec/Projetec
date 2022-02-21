@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <title>Document</title>
         <link rel = "stylesheet" href = "cadastro.html" type = "text/css">
         <link rel = "stylesheet" href = "login.html" type = "text/css">
@@ -71,26 +72,26 @@
     <body>
         <div class= "cad">
             <h1  class = "titulo" > Faça seu Cadastro </h1>
-            <form  action = “pagina_inicial.html”  method = “post”>
+            <form method = "post" id="usuarioForm">
                 <div class="container">
                     <div class="form-element">
                         <label for="Nome Completo"></label>
-                        <input type="text" id="nome" placeholder="Digite seu nome completo:" Nome>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo:" Nome>
                     </div>
                     <div class="form-element">
                         <label for="Email"></label>
-                        <input type="text" id="email" placeholder="Digite seu email:">
+                        <input type="text" id="email" name="id_email" placeholder="Digite seu email:">
                     </div>
                     <div class="form-element">
                         <label for="password"></label>
-                        <input type="password" id="senha" placeholder="Digite sua senha:">
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha:">
                     </div>
                     <div class="form-element">
                         <label for="password"></label>
-                        <input type="password" id="senha" placeholder="Repita sua senha:">
+                        <input type="password" id="senharepeticao" placeholder="Repita sua senha:">
                     </div>
                     <div class="conectar">
-                        <button onclick="window.location.href='index.html'"> Crie Sua Conta</button>
+                        <button> Crie Sua Conta</button>
                     </div>
                     <div class="log">
                         <p> Já tem uma conta? Faça seu login. </p>
@@ -102,7 +103,27 @@
 
                 
             </form>
+        <div id="resultado">
+
+        </div>
+            <script> //colocar
+                const usuarioForm = document.getElementById('usuarioForm') 
+                usuarioForm.addEventListener('submit', function(e){
+                    e.preventDefault()
+        
+                    const form = $(this) 
+        
+                    $.ajax({
+                        url: 'http://localhost:3003/usuario', 
+                        method: 'post',
+                        data: form.serialize(),
+                        success: function(resposta){ 
+                            console.log(resposta)
+                            const resultado = document.getElementById('resultado')
+                            resultado.innerHTML = resposta.msg
+                        }
+                    })
+                })
+            </script>
             
         </div>
-
-        
